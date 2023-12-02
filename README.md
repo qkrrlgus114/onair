@@ -137,7 +137,7 @@
 
 # 🖼 서비스 화면
 ### 온캐스트 생성을 위한 제목, 테마, 사연, DJ 선택
-![IMAGE_DESCRIPTION](./frontend/src/assets/input.png)
+![IMAGE_DESCRIPTION](./frontend/src/assets/Frame 112.png)
 
 ### 생성된 온캐스트의 라디오 컴포넌트
 ![IMAGE_DESCRIPTION](./frontend/src/assets/radio.png)
