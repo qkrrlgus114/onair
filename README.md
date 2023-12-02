@@ -72,6 +72,7 @@
 - 800만 개의 노래 데이터를 HDFS에 적재하여 분산 병렬 처리
 - 클러스터 실행, 종료, 재실행 스크립트 작성
 </br>
+
 ![IMAGE_DESCRIPTION](./frontend/src/assets/demo1.png)
 
 ## 2. PCA와 K-평균 군집화를 활용한 음악 추천 기능
@@ -80,6 +81,7 @@
 - 실루엣(Silhouette) 계수 기반으로 최적의 K 값 활용
 - 사용자 입력 데이터가 속한 클러스터 내 중심점에 가까운 노래 목록 일부 추출
 </br>
+
 ![IMAGE_DESCRIPTION](./frontend/src/assets/demo2.png)
 ![IMAGE_DESCRIPTION](./frontend/src/assets/demo3.png)
 
@@ -92,6 +94,7 @@
 - 전체 특성 중 일부를 제거하여 모델의 성능이 얼마나 변화하는가 기준으로 중요도 계산
 - 특성 중요도는 클러스터마다 개별 측정
 </br>
+
 ![IMAGE_DESCRIPTION](./frontend/src/assets/demo4.png)
 
 ## 5. 데이터 수집기 구현 및 HDFS, YARN, ZOOKEEPER 서버 환경 구축
@@ -122,21 +125,19 @@
 &nbsp;
 
 ### Frontend
-<img src="https://img.shields.io/badge/React-skyblue?style=flat-square&logo=react&logoColor=white"/>
-&nbsp;<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-skyblue?style=flat-square&logo=react&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
 &nbsp;<img src="https://img.shields.io/badge/HTML-red?style=flat-square&logo=html5&logoColor=white"/>
 &nbsp;<img src="https://img.shields.io/badge/CSS-blue?style=flat-square&logo=css3&logoColor=white"/>
 &nbsp;<img src="https://img.shields.io/badge/Node.js-green?style=flat-square&logo=nodedotjs&logoColor=white"/>
 
 ### Data
-<img src="https://img.shields.io/badge/Python-blue?style=flat-square&logo=python&logoColor=white"/>
-&nbsp;<img src="https://img.shields.io/badge/Kafka-black?style=flat-square&logo=apachekafka&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Spark-black?style=flat-square&logo=apachespark&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Hadoop-blue?style=flat-square&logo=apachehadoop&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Hive-yellow?style=flat-square&logo=apachehive&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Flask-black?style=flat-square&logo=flask&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Spotify-green?style=flat-square&logo=spotify&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-blue?style=flat-square&logo=python&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Kafka-black?style=flat-square&logo=apachekafka&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Spark-black?style=flat-square&logo=apachespark&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Hadoop-blue?style=flat-square&logo=apachehadoop&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Hive-yellow?style=flat-square&logo=apachehive&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Flask-black?style=flat-square&logo=flask&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Spotify-green?style=flat-square&logo=spotify&logoColor=white"/>
 
 
 
 # 🖼 서비스 화면
 ### 온캐스트 생성을 위한 제목, 테마, 사연, DJ 선택
-![IMAGE_DESCRIPTION](./frontend/src/assets/Frame 112.png)
+![IMAGE_DESCRIPTION](./frontend/src/assets/input.png)
 
 ### 생성된 온캐스트의 라디오 컴포넌트
 ![IMAGE_DESCRIPTION](./frontend/src/assets/radio.png)
@@ -175,5 +176,4 @@
 # 💬 인터페이스 설계서(API명세서)
 ![명세서1](https://github.com/qkrrlgus114/qkrrlgus114/assets/121294224/99197d4b-3872-4554-bf65-4695b30e9352)
 ![명세서2](https://github.com/qkrrlgus114/qkrrlgus114/assets/121294224/4b6deddf-9f39-4577-a8c7-5bb362aa22f2)
-
 
