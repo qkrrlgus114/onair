@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import javax.security.auth.login.LoginException;
 import java.nio.file.AccessDeniedException;
 
-@ControllerAdvice
+@RestControllerAdvice
 @Slf4j
 public class ExceptionController {
 
